@@ -32,8 +32,8 @@ import seaborn as ans
 import matplotlib.pyplot as plt
 
 df=pd.read_csv('food_items (1).csv')
-print('Name: KRITHIKAA P')
-print('Reg. No: 212225040193')
+print('Name: priyadharshini P')
+print('Reg. No: 212225220076')
 print('Dataset Overview:')
 print(df.head())
 print("\nDataset Info:")
@@ -55,19 +55,24 @@ l2_model=LogisticRegression(random_state=123,penalty=penalty,multi_class=multi_c
 l2_model.fit(X_train,y_train)
 y_pred=l2_model.predict(X_test)
 
-print('Name: KRITHIKAA P')
-print('Reg. No: 212225040193')
+print('Name: priyadharshini P')
+print('Reg. No: 212225220076')
 print("\nModel Evaluation:")
 print("Accuracy:",accuracy_score(y_test,y_pred))
 print(classification_report(y_test,y_pred))
 conf_matrix=confusion_matrix(y_test,y_pred)
 print(conf_matrix)
-print('Name: KRITHIKAA P')
-print('Reg. No: 212225040193')
+print('Name: priyadharshi P')
+print('Reg. No: 212225220076')
 ```
 
 ## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
+<img width="809" height="691" alt="Screenshot 2026-03-28 213125" src="https://github.com/user-attachments/assets/0e382dad-330d-4f58-a2f6-a78d4f24fdc5" />
+<img width="575" height="482" alt="Screenshot 2026-03-28 213146" src="https://github.com/user-attachments/assets/c6207238-742a-4454-bd9e-1c8e51e89bbb" />
+<img width="821" height="130" alt="Screenshot 2026-03-28 213156" src="https://github.com/user-attachments/assets/5cb4454f-baaf-45e2-b421-2d7a82724b9a" />
+<img width="607" height="311" alt="Screenshot 2026-03-28 213206" src="https://github.com/user-attachments/assets/e88dda22-015e-4e32-8ede-c7cd32d3d45d" />
+<img width="271" height="83" alt="Screenshot 2026-03-28 213218" src="https://github.com/user-attachments/assets/bdbcb9c5-74a7-499c-b5c5-f03456724001" />
+
 
 
 ## Result:
